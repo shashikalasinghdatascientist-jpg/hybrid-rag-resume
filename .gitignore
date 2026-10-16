@@ -1,2 +1,24 @@
+# Byte-compiled / optimized / runnable
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+
+# Databases & Indexing
 chroma_db/
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
